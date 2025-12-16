@@ -15,13 +15,13 @@ dinov3 sim by one easy script for beginers
 - MODEL_NAME = "dinov3_vitb16"
 
 ### 直接跳到文件最底部
-- 你已经可以运行了
+你已经可以运行了
 
-- 加载图像
+加载图像
 - img, orig_bgr = load_image("image.png")
 你需要自己传入图片
 
-- 调整图像大小
+调整图像大小
 - img_resized = resize_image(img,320)
 vit模型以16*16为一个为一个block,这里有32/16^2 = 20*20个block,足够你的选择了
 返回的是400*768的features,转换为 768个20*20特征图
