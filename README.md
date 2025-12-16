@@ -1,6 +1,7 @@
 # dinov3_sim_easy
 dinov3 sim by one easy script for beginers
-
+![ex1](https://github.com/xuheyao/dinov3_sim_easy/blob/main/%E6%88%AA%E5%9B%BE%202025-12-16%2010-37-38.png)
+![ex2](https://github.com/xuheyao/dinov3_sim_easy/blob/main/%E6%88%AA%E5%9B%BE%202025-12-16%2010-38-02.png)
 ## 设置全局变量
 ### 添加DINOV3_LOCATION
 1. git clone https://github.com/facebookresearch/dinov3
@@ -25,3 +26,4 @@ dinov3 sim by one easy script for beginers
 - img_resized = resize_image(img,320)
 vit模型以16*16为一个为一个block,这里有32/16^2 = 20*20个block,足够你的选择了
 返回的是400*768的features,转换为 768个20*20特征图
+
